@@ -2,7 +2,7 @@
   "root": true,
   "api": {
     "dataset": "production",
-    "projectId": "ch0ck8ut"
+    "projectId": "rspntt70"
   },
   "project": {
     "name": "homepage-starter"
@@ -24,6 +24,10 @@
     {
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
+    },
+    {
+      "implements": "part:@sanity/base/document-actions/resolver",
+      "path": "./resolveDocumentActions.js"
     }
   ]
 }
